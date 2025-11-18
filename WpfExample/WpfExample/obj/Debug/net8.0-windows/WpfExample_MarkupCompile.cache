@@ -1,5 +1,5 @@
 ﻿WpfExample
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 C:\Users\andre\OneDrive\Рабочий стол\СКФУ\Лабораторные\Основы разработки ПО\WPF_Labs_C-\WpfExample\WpfExample\App.xaml
 11407045341
 
-61296479844
+41092857463
 198-2136442823
 MainWindow.xaml;
 
-True
+False
 
