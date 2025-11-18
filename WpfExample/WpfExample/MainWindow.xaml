@@ -7,6 +7,43 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Slider Name="sldSource" Value="14" Maximum="80" Minimum="1"
+                TickFrequency="6" TickPlacement="Both"
+                Grid.Row="0" Margin="5" AutoToolTipPlacement="TopLeft"/>
+        <DockPanel Grid.Row="1">
+            <ListBox Name="listColor" DockPanel.Dock="Left" Width="150" SelectedIndex="0">
+                <ListBoxItem Content="Красный" Tag="Red"/>
+                <ListBoxItem Content="Зеленый" Tag="Green"/>
+                <ListBoxItem Content="Синий" Tag="Blue"/>
+                <ListBoxItem Content="Другой" Tag="#58aa45"/>
+                <ListBoxItem Content="Розовый" Tag="Pink"/>
+            </ListBox>
+            <ListBox Name="listFont" DockPanel.Dock="Left" Width="150" SelectedIndex="0">
+                <ListBoxItem Content="Georgia" Tag="Georgia"/>
+                <ListBoxItem Content="Arial" Tag="Arial"/>
+                <ListBoxItem Content="Times New Roman" Tag="Times New Roman"/>
+                <ListBoxItem Content="Calibri" Tag="Calibri"/>
+                <ListBoxItem Content="Segoe Script" Tag="Segoe Script"/>
+            </ListBox>
+            <TextBox Name="txtTarget" DockPanel.Dock="Right"
+                     TextAlignment="Center" VerticalAlignment="Center"
+                     FontSize="{Binding Value, ElementName=sldSource, Mode=TwoWay}"
+                     FontFamily="{Binding ElementName=listFont, Path=SelectedItem.Tag}"
+                     Foreground="{Binding ElementName=listColor, Path=SelectedItem.Tag}"
+                     Text="{Binding Text, ElementName=txtTextSource}"/>
+        </DockPanel>
+        <TextBox Name="txtTextSource" Text="Введите текст" Grid.Row="2"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="3" HorizontalAlignment="Center">
+            <Button Name="btnNormal" Content="Нормальный размер" Margin="5" Width="150"
+                    Click="btnNormal_OnClick"/>
+            <Button Name="btnLarge" Content="Крупный размер" Margin="5" Width="150"
+                    Click="btnLarge_OnClick"/>
+        </StackPanel>
     </Grid>
 </Window>

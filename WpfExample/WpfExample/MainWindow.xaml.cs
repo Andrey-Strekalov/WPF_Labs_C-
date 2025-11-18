@@ -20,5 +20,18 @@ namespace WpfExample
         {
             InitializeComponent();
         }
+
+
+        private void btnNormal_OnClick(object sender, RoutedEventArgs e)
+        {
+            sldSource.Value = 30;
+            txtTarget.FontSize = 30;
+        }
+
+        private void btnLarge_OnClick(object sender, RoutedEventArgs e)
+        {
+            sldSource.Value = 60;
+            txtTarget.FontSize = 60;
+        }
     }
 }
