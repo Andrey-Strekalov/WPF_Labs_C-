@@ -1,0 +1,100 @@
+﻿<Window x:Class="WpfExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfExample"
+        mc:Ignorable="d"
+        Title="Shape Generator" Height="450" Width="800">
+    <Window.Resources>
+        
+        <Style x:Key="style1" TargetType="Shape">
+            <Setter Property="Fill">
+                <Setter.Value>
+                    <LinearGradientBrush>
+                        <GradientStop Offset="0" Color="LightBlue"/>
+                        <GradientStop Offset="1" Color="DarkBlue"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Stroke" Value="Navy"/>
+            <Setter Property="StrokeThickness" Value="3"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Fill" Value="Gold"/>
+                    <Setter Property="StrokeThickness" Value="5"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        
+        <Style x:Key="style2" TargetType="Shape">
+            <Setter Property="Fill" Value="LightCoral"/>
+            <Setter Property="Stroke" Value="DarkRed"/>
+            <Setter Property="StrokeThickness" Value="2"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Fill" Value="Orange"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+
+        <Style x:Key="style3" TargetType="Shape">
+            <Setter Property="Fill">
+                <Setter.Value>
+                    <RadialGradientBrush>
+                        <GradientStop Offset="0" Color="LightGreen"/>
+                        <GradientStop Offset="1" Color="DarkGreen"/>
+                    </RadialGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Stroke" Value="Green"/>
+            <Setter Property="StrokeThickness" Value="4"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Opacity" Value="0.7"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        
+        <Style x:Key="style4" TargetType="Shape">
+            <Setter Property="Fill" Value="Plum"/>
+            <Setter Property="Stroke" Value="Purple"/>
+            <Setter Property="StrokeThickness" Value="3"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Fill" Value="Orchid"/>
+                    <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+                    <Setter Property="RenderTransform">
+                        <Setter.Value>
+                            <ScaleTransform ScaleX="1.2" ScaleY="1.2"/>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox Name="FigureCount"
+                     ToolTip="Enter figure count"
+                     Margin="5" Text="10"/>
+            <Button Grid.Column="1" Click="Button_Click" Margin="5">Generate Shapes</Button>
+        </Grid>
+
+        <Canvas Name="MainCanvas" Grid.Row="1" Margin="5" Background="LightGray"/>
+    </Grid>
+</Window>
