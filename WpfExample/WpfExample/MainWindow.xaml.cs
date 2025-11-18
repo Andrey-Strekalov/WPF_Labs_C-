@@ -16,48 +16,41 @@ namespace WpfExample
     /// </summary>
     public partial class MainWindow : Window
     {
+        int N, K;
+        double result, x, y;
         public MainWindow()
         {
             InitializeComponent();
+
         }
+
+       
 
         private void Calc_Click(object sender, RoutedEventArgs e)
         {
-            // Определяем, какой RadioButton выбран
-            // и в зависимости от этого расчитываем нужную формулу
-            if (Radio1.IsChecked.GetValueOrDefault())
+            try
             {
-                double a = Convert.ToDouble(R1TextA.Text);
-                double f = Convert.ToDouble(R1ComboF.Text);
-                this.Title = "Ответ: " + Math.Sin(f * a).ToString("F");
-            }
-            if (Radio2.IsChecked.GetValueOrDefault())
-            {
-                double a = Convert.ToDouble(R2TextA.Text);
-                double b = Convert.ToDouble(R2TextB.Text);
-                double f = Convert.ToDouble(R2ComboF.Text);
-                this.Title = "Ответ: " + (Math.Cos(f * a) + Math.Sin(f * b)).ToString("F");
-            }
-            if (Radio3.IsChecked.GetValueOrDefault())
-            {
-                double a = Convert.ToDouble(R3TextA.Text);
-                double b = Convert.ToDouble(R3TextB.Text);
-                double c = Convert.ToDouble(R3ComboC.Text);
-                double d = Convert.ToDouble(R3ComboD.Text);
-                this.Title = "Ответ: " + (c * a * a + d * b * b).ToString("F");
-            }
-            if (Radio4.IsChecked.GetValueOrDefault())
-            {
-                double a = Convert.ToDouble(R4TextA.Text);
-                double d = Convert.ToDouble(R4TextD.Text);
-                double c = Convert.ToDouble(R4ComboC.Text);
-                double res = 1;
-                for (int i = 0; i < d; i++)
+                N = Convert.ToInt32(TextN.Text);
+                K = Convert.ToInt32(TextK.Text);
+                x = Convert.ToDouble(TextX.Text);
+                y = Convert.ToDouble(TextY.Text);
+
+                for (int i = 1; i <= N; i++)
                 {
-                    res = res * (c + a) + 1;
+                    for (int j = 1; j <= K; j++)
+                    {
+                        double numerator = Math.Sin(x) * Math.Pow(x, i) + Math.Cos(y) * Math.Pow(y, j);
+                        double denominator = i * j;
+                        result += numerator / denominator;
+                    }
                 }
-                this.Title = "Ответ: " + res.ToString("F");
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка при вводе данных. Возможно недопустимый формат чисел" + ex.Message);
+            }
+
+            this.Title = "Ответ: " + result.ToString();
         }
     }
 }

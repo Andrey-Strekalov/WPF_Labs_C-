@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="p.bmp" />
     <None Remove="p1.bmp" />
     <None Remove="p2.bmp" />
     <None Remove="p3.bmp" />
@@ -16,19 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="p2.bmp">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="p1.bmp">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="p3.bmp">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="p4.bmp">
+    <Resource Include="p.bmp">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
