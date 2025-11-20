@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LogicTier")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a459541a573c3b203909fd3a6e646ca7ea400d64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cfd84f036dbc72be4e0d2f7b9c437cae4a88f4e")]
 [assembly: System.Reflection.AssemblyProductAttribute("LogicTier")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LogicTier")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

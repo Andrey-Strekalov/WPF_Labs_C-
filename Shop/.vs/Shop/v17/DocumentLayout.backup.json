@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0421\u041A\u0424\u0423\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\WPF_Labs_C-\\Shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3519144-23AC-4935-B3C3-6FC838DAD098}|PresentationTier\\PresentationTier.csproj|c:\\users\\andre\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0441\u043A\u0444\u0443\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u043E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u043F\u043E\\wpf_labs_c-\\shop\\presentationtier\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D3519144-23AC-4935-B3C3-6FC838DAD098}|PresentationTier\\PresentationTier.csproj|solutionrelative:presentationtier\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{612220BF-BF7B-4BB4-8357-D028CEB00659}|DataTier\\DataTier.csproj|c:\\users\\andre\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0441\u043A\u0444\u0443\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u043E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u043F\u043E\\wpf_labs_c-\\shop\\datatier\\allproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612220BF-BF7B-4BB4-8357-D028CEB00659}|DataTier\\DataTier.csproj|solutionrelative:datatier\\allproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07B3E190-1FE0-4F06-BA84-9FAF73FF5834}|LogicTier\\LogicTier.csproj|c:\\users\\andre\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0441\u043A\u0444\u0443\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u043E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u043F\u043E\\wpf_labs_c-\\shop\\logictier\\productposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,16 +15,16 @@
       "RelativeMoniker": "D:0:0:{07B3E190-1FE0-4F06-BA84-9FAF73FF5834}|LogicTier\\LogicTier.csproj|solutionrelative:logictier\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D3519144-23AC-4935-B3C3-6FC838DAD098}|PresentationTier\\PresentationTier.csproj|c:\\users\\andre\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0441\u043A\u0444\u0443\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u043E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u043F\u043E\\wpf_labs_c-\\shop\\presentationtier\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3519144-23AC-4935-B3C3-6FC838DAD098}|PresentationTier\\PresentationTier.csproj|solutionrelative:presentationtier\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D3519144-23AC-4935-B3C3-6FC838DAD098}|PresentationTier\\PresentationTier.csproj|c:\\users\\andre\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0441\u043A\u0444\u0443\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u043E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u043F\u043E\\wpf_labs_c-\\shop\\presentationtier\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3519144-23AC-4935-B3C3-6FC838DAD098}|PresentationTier\\PresentationTier.csproj|solutionrelative:presentationtier\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3519144-23AC-4935-B3C3-6FC838DAD098}|PresentationTier\\PresentationTier.csproj|c:\\users\\andre\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0441\u043A\u0444\u0443\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u043E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u043F\u043E\\wpf_labs_c-\\shop\\presentationtier\\presentationtier.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D3519144-23AC-4935-B3C3-6FC838DAD098}|PresentationTier\\PresentationTier.csproj|solutionrelative:presentationtier\\presentationtier.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{612220BF-BF7B-4BB4-8357-D028CEB00659}|DataTier\\DataTier.csproj|c:\\users\\andre\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0441\u043A\u0444\u0443\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u043E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u043F\u043E\\wpf_labs_c-\\shop\\datatier\\allproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{612220BF-BF7B-4BB4-8357-D028CEB00659}|DataTier\\DataTier.csproj|solutionrelative:datatier\\allproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PresentationTier",
               "DocumentMoniker": "C:\\Users\\andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0421\u041A\u0424\u0423\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\WPF_Labs_C-\\Shop\\PresentationTier\\PresentationTier.csproj",
               "RelativeDocumentMoniker": "PresentationTier\\PresentationTier.csproj",
@@ -55,48 +55,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "ProductPosition.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0421\u041A\u0424\u0423\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\WPF_Labs_C-\\Shop\\LogicTier\\ProductPosition.cs",
+              "RelativeDocumentMoniker": "LogicTier\\ProductPosition.cs",
+              "ToolTip": "C:\\Users\\andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0421\u041A\u0424\u0423\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\WPF_Labs_C-\\Shop\\LogicTier\\ProductPosition.cs",
+              "RelativeToolTip": "LogicTier\\ProductPosition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T07:52:32.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AllProducts.cs",
               "DocumentMoniker": "C:\\Users\\andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0421\u041A\u0424\u0423\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\WPF_Labs_C-\\Shop\\DataTier\\AllProducts.cs",
               "RelativeDocumentMoniker": "DataTier\\AllProducts.cs",
               "ToolTip": "C:\\Users\\andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0421\u041A\u0424\u0423\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\WPF_Labs_C-\\Shop\\DataTier\\AllProducts.cs",
               "RelativeToolTip": "DataTier\\AllProducts.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAqwDoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T06:53:34.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0421\u041A\u0424\u0423\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\WPF_Labs_C-\\Shop\\PresentationTier\\MainWindow.xaml",
               "RelativeDocumentMoniker": "PresentationTier\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0421\u041A\u0424\u0423\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\WPF_Labs_C-\\Shop\\PresentationTier\\MainWindow.xaml*",
-              "RelativeToolTip": "PresentationTier\\MainWindow.xaml*",
+              "ToolTip": "C:\\Users\\andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0421\u041A\u0424\u0423\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\WPF_Labs_C-\\Shop\\PresentationTier\\MainWindow.xaml",
+              "RelativeToolTip": "PresentationTier\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-19T06:35:21.898Z",
               "EditorCaption": ""
             },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0421\u041A\u0424\u0423\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\WPF_Labs_C-\\Shop\\PresentationTier\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "PresentationTier\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0421\u041A\u0424\u0423\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\WPF_Labs_C-\\Shop\\PresentationTier\\MainWindow.xaml.cs",
-              "RelativeToolTip": "PresentationTier\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T06:35:21.729Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 207,
-          "SelectedChildIndex": 1,
-          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -112,15 +106,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductPosition.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0421\u041A\u0424\u0423\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\WPF_Labs_C-\\Shop\\LogicTier\\ProductPosition.cs",
-              "RelativeDocumentMoniker": "LogicTier\\ProductPosition.cs",
-              "ToolTip": "C:\\Users\\andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0421\u041A\u0424\u0423\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\WPF_Labs_C-\\Shop\\LogicTier\\ProductPosition.cs",
-              "RelativeToolTip": "LogicTier\\ProductPosition.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowC4AAAApAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0421\u041A\u0424\u0423\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\WPF_Labs_C-\\Shop\\PresentationTier\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PresentationTier\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\andre\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0421\u041A\u0424\u0423\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041E\u0441\u043D\u043E\u0432\u044B \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\WPF_Labs_C-\\Shop\\PresentationTier\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PresentationTier\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:52:32.254Z",
+              "WhenOpened": "2025-11-19T06:35:21.729Z",
               "EditorCaption": ""
             }
           ]
