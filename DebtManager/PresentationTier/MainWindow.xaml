@@ -1,0 +1,99 @@
+﻿<Window x:Class="PresentationTier.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{Binding NameOfUniversity}" 
+        Height="500" 
+        Width="900" 
+        WindowStartupLocation="CenterScreen" 
+        Background="LightCyan">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Name="GridForStudent"
+              DataContext="{Binding ElementName=MainList, Path=SelectedItem}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Margin="5" Grid.Row="0" Text="Имя студента:"/>
+            <TextBox Margin="5" Grid.Row="0" Grid.Column="1"
+                     Text="{Binding NameStudent}"/>
+            <TextBlock Margin="5" Grid.Row="1" Text="Группа:"/>
+            <TextBox Margin="5" Grid.Row="1" Grid.Column="1"
+                     Text="{Binding GroupStudent}"/>
+            <TextBlock Margin="5" Grid.Row="2" Text="Курс:"/>
+            <TextBox Margin="5" Grid.Row="2" Grid.Column="1"
+                     Text="{Binding CourseStudent}"/>
+            <TextBlock Margin="5" Grid.Row="3" Text="Количество задолженностей:"/>
+            <TextBox Margin="5" Grid.Row="3" Grid.Column="1"
+                     Text="{Binding AmountOfDebt}"/>
+        </Grid>
+
+        <Grid Grid.Row="1" Name="GridForCollections">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <ListBox Name="MainList" Grid.Column="0"
+                     ItemsSource="{Binding StudentList, Mode=OneWay}"
+                     DisplayMemberPath="StudentPresentation" 
+                     Background="Azure"
+                     Margin="10"/>
+
+            <ListBox Grid.Column="1"
+                     ItemsSource="{Binding CourseDebtStatistics, Mode=OneWay}"
+                     Background="LightYellow"
+                     Margin="10">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding DisplayInfo}" Margin="2" FontWeight="Bold"/>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
+
+        <Grid Grid.Row="2" Name="GridForItog">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Margin="5" Text="Всего студентов:" Grid.Column="0"
+                       HorizontalAlignment="Right"/>
+            <TextBox Margin="5" Grid.Column="1"
+                     Text="{Binding Path=TotalStudents, Mode=OneWay}"/>
+            <TextBlock Margin="5" Text="Студентов без долгов:" Grid.Column="2"
+                       HorizontalAlignment="Right"/>
+            <TextBox Margin="5" Grid.Column="3"
+                     Text="{Binding Path=StudentsWithoutDebt, Mode=OneWay}"/>
+        </Grid>
+
+        <Grid Grid.Row="3" Name="GridForTotalDebts">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Margin="5" Text="Общее количество задолженностей:" Grid.Column="0"
+                       HorizontalAlignment="Right" FontWeight="Bold"/>
+            <TextBox Margin="5" Grid.Column="1"
+                     Text="{Binding Path=TotalDebts, Mode=OneWay}"
+                     FontWeight="Bold" Background="LightPink"/>
+        </Grid>
+    </Grid>
+</Window>
