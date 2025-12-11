@@ -1,11 +1,8 @@
 ﻿<Window x:Class="WpfExample.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WpfExample"
-        mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -13,9 +10,11 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
+
         <Slider Name="sldSource" Value="14" Maximum="80" Minimum="1"
                 TickFrequency="6" TickPlacement="Both"
                 Grid.Row="0" Margin="5" AutoToolTipPlacement="TopLeft"/>
+
         <DockPanel Grid.Row="1">
             <ListBox Name="listColor" DockPanel.Dock="Left" Width="150" SelectedIndex="0">
                 <ListBoxItem Content="Красный" Tag="Red"/>
@@ -33,17 +32,26 @@
             </ListBox>
             <TextBox Name="txtTarget" DockPanel.Dock="Right"
                      TextAlignment="Center" VerticalAlignment="Center"
-                     FontSize="{Binding Value, ElementName=sldSource, Mode=TwoWay}"
+                     FontSize="{Binding Value, ElementName=sldSource, Mode=OneWay}"
                      FontFamily="{Binding ElementName=listFont, Path=SelectedItem.Tag}"
                      Foreground="{Binding ElementName=listColor, Path=SelectedItem.Tag}"
-                     Text="{Binding Text, ElementName=txtTextSource}"/>
+                     Text="{Binding Text, ElementName=txtTextSource, Mode=OneWay}"
+                     Opacity="{Binding ElementName=sldOpacity, Path=Value}"
+                     Background="Azure"/>
         </DockPanel>
+
         <TextBox Name="txtTextSource" Text="Введите текст" Grid.Row="2"/>
+
         <StackPanel Orientation="Horizontal" Grid.Row="3" HorizontalAlignment="Center">
-            <Button Name="btnNormal" Content="Нормальный размер" Margin="5" Width="150"
+            <Slider Name="sldOpacity" Minimum="0.1" Maximum="1" Value="1" Width="100" Margin="5"/>
+            <CheckBox Name="chkBold" Content="Жирный" Margin="5" VerticalAlignment="Center"
+                      Checked="chkBold_Checked" Unchecked="chkBold_Unchecked"/>
+            <Button Name="btnNormal" Content="Нормальный" Margin="5" Width="100"
                     Click="btnNormal_OnClick"/>
-            <Button Name="btnLarge" Content="Крупный размер" Margin="5" Width="150"
+            <Button Name="btnLarge" Content="Крупный" Margin="5" Width="100"
                     Click="btnLarge_OnClick"/>
+            <Button Name="btnDynamic" Content="Динамика" Margin="5" Width="100"
+                    Click="btnDynamic_Click"/>
         </StackPanel>
     </Grid>
 </Window>
